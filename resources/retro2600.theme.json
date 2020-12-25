@@ -1,0 +1,35 @@
+{
+  "name": "retro2600",
+  "dark": true,
+  "author": "kryz",
+  "editorScheme": "/retro2600.xml",
+  "colors": {
+    "fontColor": "#ffffff",
+    "brownActive": "#523c26",
+    "brownInactive": "#37352e",
+    "retroRed": "#c84244",
+    "retroOrange": "#d87e39",
+    "retroYellow": "#efce62",
+    "retroGreen": "#b0b475",
+    "retroBlue": "#4e858e"
+  },
+  "ui": {
+    "*": {
+      "background": "brownInactive",
+      "foreground": "fontColor"
+    },
+    "EditorTabs": {
+      "underlinedTabBackground": "brownActive",
+      "underlineColor": "retroYellow",
+      "hoverBackground": "brownActive",
+      "underlinedTabForeground": "retroOrange",
+      "inactiveUnderlineColor": "retroOrange"
+    },
+    "ToolWindow": {
+      "Header": {
+        "background": "brownActive",
+        "inactiveBackground": "brownInactive"
+      }
+    }
+  }
+}
